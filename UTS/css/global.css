@@ -82,7 +82,7 @@ nav main a:hover, .dropdown:hover .dropbtn {
 
 section {
   width: 100%;
-  height: 400vh;
+  height: 700vh;
   position: relative;
   color: white;
 }
@@ -156,7 +156,7 @@ h3 {
   }
   
   section .melayangkiri{
-    top: 50px;
+    top: 65px;
     left: 10%;
     width: 75%;
     position: relative;
