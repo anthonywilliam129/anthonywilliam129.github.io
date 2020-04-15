@@ -1,0 +1,1084 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+nav {
+  position: fixed;
+  top: 10px;
+  left: 0;
+  width: 100vw;
+  height: 0px;
+  background-color: transparent;
+  z-index: 100;
+}
+
+main {
+  width: 90%;
+  padding-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav main {
+  padding-top: 20px;
+  text-align: left;
+}
+
+nav main a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Walbaum', serif;
+  font-size: 18px;
+  padding-top: 50px;
+  padding-left: 50px;
+}
+
+nav main a:hover {
+  color: white;
+}
+
+.navi1 {
+  text-align: left;
+  color: white;
+  font-size: 20px;
+  float: left;
+}
+
+.navi2 {
+  text-align: right;
+}
+
+section.full {
+  width: 100%;
+  height: 100vh;
+  background-color: #191919;
+}
+
+.banner {
+  width: 100%;
+  height: 55vh;
+  background-color: transparent;
+  display: block;
+}
+
+.title {
+  width: 50%;
+  height: auto;
+  padding-top: 5%;
+  color: white;
+  font-size: 28px;
+}
+
+.synopsis {
+  width: 35%;
+  height: auto;
+  padding-top: 2%;
+}
+
+.synopsis2 {
+  width: 50%;
+  height: auto;
+  padding-top: 2%;
+}
+
+.show {
+  width: 35%;
+  height: auto;
+  padding-top: 2%;
+  float: left;
+}
+
+.button {
+  width: 50%;
+  height: 30%;
+  margin-top: 2%;
+}
+
+.play {
+  width: 30%;
+  height: auto;
+  float: left;
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  outline-style: solid;
+  outline-color: white;
+  outline-width: thin;
+}
+
+.play a {
+  text-decoration: none;
+  color: white;
+}
+
+.more a {
+  text-decoration: none;
+  color: white;
+}
+
+.more {
+  width: 30%;
+  height: auto;
+  float: left;
+  margin-left: 3%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  text-align: center;
+  outline-style: solid;
+  outline-color: white;
+  outline-width: thin;
+}
+
+
+.banner2 {
+  width: 100%;
+  height: 22vh;
+  background-color: transparent;
+  display: block;
+}
+
+.readalso {
+  width: 100%;
+  height: 2vh;
+  background-color: transparent;
+  display: block;
+}
+
+.bookone {
+  width: 100%;
+  margin-top: 20px;
+  background-color: transparent;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  display: inline-block;
+}
+
+.bookone::-webkit-scrollbar {
+  width: 5px;
+}
+
+.bookone::-webkit-scrollbar-track {
+  background: #191919;
+}
+
+.bookone::-webkit-scrollbar-thumb {
+  background: #333;
+}
+
+.bookone::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.book0 {
+  width: 160px;
+  height: 240px;
+  margin-right: 1%;
+  background-image: url('../image/lotrbook2-06.jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  display: inline-block;
+}
+
+.book1 {
+  width: 160px;
+  height: 240px;
+  margin-right: 1%;
+  background-image: url('../image/lotrbook2-01.jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  display: inline-block;
+}
+
+.book2 {
+  width: 160px;
+  height: 240px;
+  margin-right: 1%;
+  background-image: url('../image/lotrbook2-02.jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  display: inline-block;
+}
+
+.book3 {
+  width: 160px;
+  height: 240px;
+  margin-right: 1%;
+  background-image: url('../image/lotrbook2-03.jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  display: inline-block;
+}
+
+.book4 {
+  width: 160px;
+  height: 240px;
+  margin-right: 1%;
+  background-image: url('../image/lotrbook2-04.jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  display: inline-block;
+}
+
+.book5 {
+  width: 160px;
+  height: 240px;
+  margin-right: 1%;
+  background-image: url('../image/lotrbook2-05.jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  display: inline-block;
+}
+
+.book6 {
+  width: 160px;
+  height: 240px;
+  margin-right: 1%;
+  background-image: url('../image/hlotrbook2-13.jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  display: inline-block;
+}
+
+.book7 {
+  width: 160px;
+  height: 240px;
+  margin-right: 1%;
+  background-image: url('../image/hlotrbook2-01.jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  display: inline-block;
+}
+
+.book8 {
+  width: 160px;
+  height: 240px;
+  margin-right: 1%;
+  background-image: url('../image/hlotrbook2-03.jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  display: inline-block;
+}
+
+.book9 {
+  width: 160px;
+  height: 240px;
+  margin-right: 1%;
+  background-image: url('../image/hlotrbook2-04.jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  display: inline-block;
+}
+
+.book10 {
+  width: 160px;
+  height: 240px;
+  background-image: url('../image/hlotrbook2-05.jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  display: inline-block;
+}
+
+.book11 {
+  width: 160px;
+  height: 240px;
+  margin-right: 1%;
+  background-image: url('../image/hlotrbook2-02.jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  display: inline-block;
+}
+
+.book12 {
+  width: 160px;
+  height: 240px;
+  margin-right: 1%;
+  background-image: url('../image/hlotrbook2-06.jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  display: inline-block;
+}
+
+.book13 {
+  width: 160px;
+  height: 240px;
+  margin-right: 1%;
+  background-image: url('../image/hlotrbook2-07.jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  display: inline-block;
+}
+
+.book14 {
+  width: 160px;
+  height: 240px;
+  margin-right: 1%;
+  background-image: url('../image/hlotrbook2-08.jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  display: inline-block;
+}
+
+.book15 {
+  width: 160px;
+  height: 240px;
+  margin-right: 1%;
+  background-image: url('../image/hlotrbook2-09.jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  display: inline-block;
+}
+
+.book16 {
+  width: 160px;
+  height: 240px;
+  margin-right: 1%;
+  background-image: url('../image/hlotrbook2-10.jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  display: inline-block;
+}
+
+.book17 {
+  width: 160px;
+  height: 240px;
+  margin-right: 1%;
+  background-image: url('../image/hlotrbook2-11.jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  display: inline-block;
+}
+
+.book18 {
+  width: 160px;
+  height: 240px;
+  background-image: url('../image/hlotrbook2-12.jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  display: inline-block;
+}
+
+
+
+.book0 p {
+  padding-top: 75%;
+  color: transparent;
+}
+
+.book0:hover {
+  background-color: black;
+  opacity: 0.5;
+}
+
+.book0 p:hover {
+  color: white;
+  display: block;
+}
+
+
+
+.book1 p {
+  padding-top: 75%;
+  color: transparent;
+}
+
+.book1:hover {
+  background-color: black;
+  opacity: 0.5;
+}
+
+.book1 p:hover {
+  color: white;
+  display: block;
+}
+
+
+
+.book2 p {
+  padding-top: 75%;
+  color: transparent;
+}
+
+.book2:hover {
+  background-color: black;
+  opacity: 0.5;
+}
+
+.book2 p:hover {
+  color: white;
+  display: block;
+}
+
+
+
+.book3 p {
+  padding-top: 75%;
+  color: transparent;
+}
+
+.book3:hover {
+  background-color: black;
+  opacity: 0.5;
+}
+
+.book3 p:hover {
+  color: white;
+  display: block;
+}
+
+
+
+.book4 p {
+  padding-top: 75%;
+  color: transparent;
+}
+
+.book4:hover {
+  background-color: black;
+  opacity: 0.5;
+}
+
+.book4 p:hover {
+  color: white;
+  display: block;
+}
+
+
+
+.book5 p {
+  padding-top: 75%;
+  color: transparent;
+}
+
+.book5:hover {
+  background-color: black;
+  opacity: 0.5;
+}
+
+.book5 p:hover {
+  color: white;
+  display: block;
+}
+
+
+
+.book6 p {
+  padding-top: 75%;
+  color: transparent;
+}
+
+.book6:hover {
+  background-color: black;
+  opacity: 0.5;
+}
+
+.book6 p:hover {
+  color: white;
+  display: block;
+}
+
+
+
+.book7 p {
+  padding-top: 75%;
+  color: transparent;
+}
+
+.book7:hover {
+  background-color: black;
+  opacity: 0.5;
+}
+
+.book7 p:hover {
+  color: white;
+  display: block;
+}
+
+
+
+.book8 p {
+  padding-top: 75%;
+  color: transparent;
+}
+
+.book8:hover {
+  background-color: black;
+  opacity: 0.5;
+}
+
+.book8 p:hover {
+  color: white;
+  display: block;
+}
+
+
+
+.book9 p {
+  padding-top: 75%;
+  color: transparent;
+}
+
+.book9:hover {
+  background-color: black;
+  opacity: 0.5;
+}
+
+.book9 p:hover {
+  color: white;
+  display: block;
+}
+
+
+
+.book10 p {
+  padding-top: 75%;
+  color: transparent;
+}
+
+.book10:hover {
+  background-color: black;
+  opacity: 0.5;
+}
+
+.book10 p:hover {
+  color: white;
+  display: block;
+}
+
+
+.book11 p {
+  padding-top: 75%;
+  color: transparent;
+}
+
+.book11:hover {
+  background-color: black;
+  opacity: 0.5;
+}
+
+.book11 p:hover {
+  color: white;
+  display: block;
+}
+
+
+
+.book12 p {
+  padding-top: 75%;
+  color: transparent;
+}
+
+.book12:hover {
+  background-color: black;
+  opacity: 0.5;
+}
+
+.book12 p:hover {
+  color: white;
+  display: block;
+}
+
+
+
+.book13 p {
+  padding-top: 75%;
+  color: transparent;
+}
+
+.book13:hover {
+  background-color: black;
+  opacity: 0.5;
+}
+
+.book13 p:hover {
+  color: white;
+  display: block;
+}
+
+
+
+.book14 p {
+  padding-top: 75%;
+  color: transparent;
+}
+
+.book14:hover {
+  background-color: black;
+  opacity: 0.5;
+}
+
+.book14 p:hover {
+  color: white;
+  display: block;
+}
+
+
+
+.book15 p {
+  padding-top: 75%;
+  color: transparent;
+}
+
+.book15:hover {
+  background-color: black;
+  opacity: 0.5;
+}
+
+.book15 p:hover {
+  color: white;
+  display: block;
+}
+
+
+
+.book16 p {
+  padding-top: 75%;
+  color: transparent;
+}
+
+.book16:hover {
+  background-color: black;
+  opacity: 0.5;
+}
+
+.book16 p:hover {
+  color: white;
+  display: block;
+}
+
+
+
+.book17 p {
+  padding-top: 75%;
+  color: transparent;
+}
+
+.book17:hover {
+  background-color: black;
+  opacity: 0.5;
+}
+
+.book17 p:hover {
+  color: white;
+  display: block;
+}
+
+
+
+.book18 p {
+  padding-top: 75%;
+  color: transparent;
+}
+
+.book18:hover {
+  background-color: black;
+  opacity: 0.5;
+}
+
+.book18 p:hover {
+  color: white;
+  display: block;
+}
+
+
+section.full0 {
+  width: 100%;
+  height: 100vh;
+  background-image: url('../image/lotrbook1-08.jpg');
+  background-size: cover;
+  display: none;
+}
+
+section.full1 {
+  width: 100%;
+  height: 100vh;
+  background-image: url('../image/lotrbook1-02.jpg');
+  background-size: cover;
+  display: none;
+}
+
+section.full2 {
+  width: 100%;
+  height: 100vh;
+  background-image: url('../image/lotrbook1-03.jpg');
+  background-size: cover;
+  display: none;
+}
+
+section.full3 {
+  width: 100%;
+  height: 100vh;
+  background-image: url('../image/lotrbook1-04.jpg');
+  background-size: cover;
+  display: none;
+}
+
+section.full4 {
+  width: 100%;
+  height: 100vh;
+  background-image: url('../image/lotrbook1-05.jpg');
+  background-size: cover;
+  display: none;
+}
+
+section.full5 {
+  width: 100%;
+  height: 100vh;
+  background-image: url('../image/lotrbook1-06.jpg');
+  background-size: cover;
+  display: none;
+}
+
+section.full6 {
+  width: 100%;
+  height: 100vh;
+  background-image:  url('../image/lotrbook1-10.jpg');
+  background-size: cover;
+  display: none;
+}
+
+section.full7 {
+  width: 100%;
+  height: 100vh;
+  background-image: url('../image/lotrbook1-11.jpg');
+  background-size: cover;
+  display: none;
+}
+
+section.full8 {
+  width: 100%;
+  height: 100vh;
+  background-image: url('../image/lotrbook1-13.jpg');
+  background-size: cover;
+  display: none;
+}
+
+section.full9 {
+  width: 100%;
+  height: 100vh;
+  background-image: url('../image/lotrbook1-14.jpg');
+  background-size: cover;
+  display: none;
+}
+
+section.full10 {
+  width: 100%;
+  height: 100vh;
+  background-image: url('../image/lotrbook1-15.jpg');
+  background-size: cover;
+  display: none;
+}
+
+section.full11 {
+  width: 100%;
+  height: 100vh;
+  background-image: url('../image/lotrbook1-12.jpg');
+  background-size: cover;
+  display: none;
+}
+
+section.full12 {
+  width: 100%;
+  height: 100vh;
+  background-image: url('../image/lotrbook1-16.jpg');
+  background-size: cover;
+  display: none;
+}
+
+section.full13 {
+  width: 100%;
+  height: 100vh;
+  background-image: url('../image/lotrbook1-17.jpg');
+  background-size: cover;
+  display: none;
+}
+
+section.full14 {
+  width: 100%;
+  height: 100vh;
+  background-image: url('../image/lotrbook1-18.jpg');
+  background-size: cover;
+  display: none;
+}
+
+section.full15 {
+  width: 100%;
+  height: 100vh;
+  background-image: url('../image/lotrbook1-19.jpg');
+  background-size: cover;
+  display: none;
+}
+
+section.full16 {
+  width: 100%;
+  height: 100vh;
+  background-image:  url('../image/lotrbook1-20.jpg');
+  background-size: cover;
+  display: none;
+}
+
+section.full17 {
+  width: 100%;
+  height: 100vh;
+  background-image: url('../image/lotrbook1-21.jpg');
+  background-size: cover;
+  display: none;
+}
+
+section.full18 {
+  width: 100%;
+  height: 100vh;
+  background-image: url('../image/lotrbook1-22.jpg');
+  background-size: cover;
+  display: none;
+}
+
+.judul {
+  width: 50%;
+  height: 30%;
+  margin-top: 10vh;
+  background-color: transparent;
+  display: block;
+}
+
+.description {
+  width: 50%;
+  height: 20%;
+  margin-top: 7vh;
+  float: right;
+  background-color: transparent;
+  display: block;
+}
+
+@media (max-width: 886px) {
+  main {
+    width: 90vw;
+    margin: auto;
+    padding: auto;
+  }
+  
+  nav {
+    top: 0px;
+    background-color: black;
+  }
+  
+  nav main {
+    padding-top: 20px;
+    text-align: center;
+  }
+  
+  nav main a {
+    padding-right: 0px;
+  }
+  
+  section.full {
+    width: 100vw;
+    height: 100vh;
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    background-color: black;
+  }
+  
+  .banner {
+    width: 90vw;
+    height: 25vh;
+  }
+  
+  .bookone {
+    padding-top: 10vh;
+  }
+  
+  .title {
+    width: 90vw;
+    margin-top: 30px;
+  }
+  
+  .synopsis {
+    width: 80vw;
+  }
+  
+  .button {
+    width: 90vw;
+  }
+  
+  .play {
+    width: 30vw;
+  }
+  
+  .mylist {
+    width: 30vw;
+  }
+  
+  .book {
+    width: 90vw;
+    height: auto;
+  }
+  
+  .readalso {
+    wisth: 90vw;
+    align: center;
+    display: none;
+  }
+  
+  section.full0 {
+    width: 100vw;
+    height: 100vh;
+    background-image: none;
+    background-color: #CF6828;
+  }
+  
+  section.full1 {
+    width: 100vw;
+    height: 100vh;
+    background-image: none;
+    background-color: #FDCF17;
+  }
+  
+  section.full2 {
+    width: 100vw;
+    height: 100vh;
+    background-image: none;
+    background-color: #E31D3C;
+  }
+  
+  section.full3 {
+    width: 100vw;
+    height: 100vh;
+    background-image: none;
+    background-color: #71B543;
+  }
+  
+  section.full4 {
+    width: 100vw;
+    height: 100vh;
+    background-image: none;
+    background-color: #E9242D;
+  }
+  
+  section.full5 {
+    width: 100vw;
+    height: 100vh;
+    background-image: none;
+    background-color: #1E8ECB;
+  }
+  
+  section.full6 {
+    width: 100vw;
+    height: 100vh;
+    background-image: none;
+    background-color: #6F9DB1;
+  }
+  
+  section.full7 {
+    width: 100vw;
+    height: 100vh;
+    background-image: none;
+    background-color: #111529;
+  }
+  
+  section.full8 {
+    width: 100vw;
+    height: 100vh;
+    background-image: none;
+    background-color: #0D4639;
+  }
+  
+  section.full9 {
+    width: 100vw;
+    height: 100vh;
+    background-image: none;
+    background-color: #4A181C;
+  }
+  
+  section.full10 {
+    width: 100vw;
+    height: 100vh;
+    background-image: none;
+    background-color: #163A64;
+  }
+  
+  section.full11 {
+    width: 100vw;
+    height: 100vh;
+    background-image: none;
+    background-color: #611F12;
+  }
+  
+  section.full12 {
+    width: 100vw;
+    height: 100vh;
+    background-image: none;
+    background-color: #0B0C0D;
+  }
+  
+  section.full13 {
+    width: 100vw;
+    height: 100vh;
+    background-image: none;
+    background-color: #E12229;
+  }
+  
+  section.full14 {
+    width: 100vw;
+    height: 100vh;
+    background-image: none;
+    background-color: #0B0C0D;
+  }
+  
+  section.full15 {
+    width: 100vw;
+    height: 100vh;
+    background-image: none;
+    background-color: #78231A;
+  }
+  
+  section.full16 {
+    width: 100vw;
+    height: 100vh;
+    background-image: none;
+    background-color: #28133D;
+  }
+  
+  section.full17 {
+    width: 100vw;
+    height: 100vh;
+    background-image: none;
+    background-color: #6C0C1E;
+  }
+  
+  section.full18 {
+    width: 100vw;
+    height: 100vh;
+    background-image: none;
+    background-color: #082946;
+  }
+  
+  .description {
+    width: 90vw;
+  }
+  
